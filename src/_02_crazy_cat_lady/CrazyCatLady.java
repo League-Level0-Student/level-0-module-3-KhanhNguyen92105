@@ -13,7 +13,7 @@ public class CrazyCatLady {
 String cats = JOptionPane.showInputDialog("how many cats do you have?");
 		// 2. Convert their answer into an int
 int cats1 = Integer.parseInt(cats);
-		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
+		// 3. If they have 3 or more cats,a tell them they are a crazy cat lady
 if(cats1 >= 3) {
 	JOptionPane.showMessageDialog(null, "You're a crazy cat lady");
 }

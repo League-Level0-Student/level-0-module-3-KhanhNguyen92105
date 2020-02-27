@@ -24,7 +24,7 @@ public class RobotColorChooser {
 		re2 = ran.nextInt(255);
 		//3. Ask the user what color they would like the robot to draw
 		
-		//5. Use an if/else statement to set the pen color that the user requested
+		//5. Use an if/else statement to set thea pen color that the user requested
 		if(Color.equalsIgnoreCase("Blue")) {
 			
 			e.setPenColor(0, 0, 255);
